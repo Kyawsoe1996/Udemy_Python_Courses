@@ -70,6 +70,7 @@ print(index_created)
 #After that find related query. If there will have multiple users record
 print(users.find({"username":"nick"}))
 print(users.find({"username":"nick"}).count() == 2)
+print(users.find({"username":"john"}).count())
 
 
 
